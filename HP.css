@@ -1,6 +1,9 @@
 body, h2 {
     font-family: 'Press Start 2P', cursive;
 }
+.description {
+    font-size: 30px;
+}
 h1 {
     text-align: center;
     font-family: "Sarpanch", sans-serif;
@@ -14,6 +17,11 @@ h1 {
     text-decoration: underline dashed;
     letter-spacing: 10px;
   ;
+  }
+  .content {
+    margin: 40px;
+    width: 70%;
+    padding: 10px;
   }
   .topnav {
     background-color: #D53A33;
@@ -33,5 +41,15 @@ h1 {
   }
   .topnav a.active {
     background-color: rgb(140, 13, 13)
+  }
 
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  .column {
+    padding: 5px;
   }
