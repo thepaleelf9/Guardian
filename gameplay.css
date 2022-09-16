@@ -1,0 +1,49 @@
+/* General */
+
+:root {
+	--blue: rgb(25, 189, 255);
+	--red: rgb(198, 37, 33);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+h1 {
+	font-family: "Press Start 2P", cursive;
+	font-size: 42px;
+}
+
+/* main */
+
+.main {
+	background-color: var(--red);
+}
+
+.main__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.main__bottom {
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+.main__bottom p {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.main__bottom img {
+	width: 80%;
+}
