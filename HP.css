@@ -9,14 +9,10 @@ h1 {
     font-family: "Sarpanch", sans-serif;
     font-size: 8rem;
     padding: 30px;
-    color: #1D9099
-  ;
-    text-shadow: 5px 5px #E79C10
-  , 10px 10px #D53A33
-  ;
+    color: #1D9099;
+    text-shadow: 5px 5px #E79C10, 10px 10px #D53A33;
     text-decoration: underline dashed;
     letter-spacing: 10px;
-  ;
   }
   .content {
     margin: 40px;
@@ -24,7 +20,7 @@ h1 {
     padding: 10px;
   }
   .topnav {
-    background-color: #D53A33;
+    background-color: #cd1b11;
     overflow: hidden;
   }
   .topnav a {
@@ -40,7 +36,7 @@ h1 {
     color: black;
   }
   .topnav a.active {
-    background-color: rgb(140, 13, 13)
+    background-color: rgb(140, 13, 13);
   }
 
   * {
