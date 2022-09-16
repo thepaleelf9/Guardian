@@ -15,9 +15,44 @@ body {
 h1 {
 	font-family: "Press Start 2P", cursive;
 	font-size: 42px;
+	text-shadow: 6px 6px 0 black;
 }
 
-/* main */
+h2 {
+	font-family: "Press Start 2P", cursive;
+	color: var(--blue);
+	font-size: 32px;
+	text-shadow: 4px 4px 0 var(--red);
+}
+
+p {
+	font-size: 20px;
+	font-family: monospace;
+}
+
+/* Nav */
+
+.topnav {
+	background-color: #cd1b11;
+	overflow: hidden;
+}
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a.active {
+	background-color: rgb(140, 13, 13);
+}
+
+/* Main */
 
 .main {
 	background-color: var(--red);
@@ -30,7 +65,7 @@ h1 {
 	align-items: center;
 	max-width: 1600px;
 	margin: 0 auto;
-	padding: 2rem;
+	padding: 4rem 2rem;
 }
 
 .main__bottom {
@@ -42,8 +77,48 @@ h1 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	padding-right: 2rem;
 }
 
 .main__bottom img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 80%;
+	margin: 0 auto;
+	max-height: 300px;
+	box-shadow: 9px 9px 0 rgb(105, 13, 13), 18px 18px 0 rgb(59, 5, 5);
+}
+
+/* Story */
+
+.story {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.story p {
+	background-color: var(--red);
+	padding: 2rem;
+	border-radius: 12px;
+	box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Controller */
+
+.controls {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.controls__details {
+}
+
+.controls__details p {
+	background-color: var(--blue);
+	padding: 2rem;
+	border-radius: 12px;
+	height: 100%;
 }
