@@ -4,6 +4,26 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
+.topnav {
+    background-color: #CD1B11;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: rgb(140, 13, 13)
+  }
+
 h1 {
     text-align: center;
     font-family: "Sarpanch", sans-serif;
@@ -22,4 +42,14 @@ p {
     margin-left: auto;
     margin-right: auto;
     border: 2px double black;
+}
+
+.carou {
+    display: flex;
+    align-items: center !important;
+}
+
+.creatorImg {
+    height: 250px;
+    object-fit: contain;
 }
