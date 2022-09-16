@@ -44,9 +44,8 @@ p {
     border: 2px double black;
 }
 
-.carou {
-    display: flex;
-    align-items: center !important;
+.carousel-item {
+    transition-delay: 30s;
 }
 
 .creatorImg {
