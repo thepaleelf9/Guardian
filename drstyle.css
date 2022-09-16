@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarpanch:wght@800&display=swap");
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sarpanch", sans-serif;
+    font-size: 6rem;
+    padding: 30px;
+    color: #1d9099;
+    text-shadow: 5px 5px #e79c10, 10px 10px #d53a33;
+    text-decoration: underline dashed;
+    letter-spacing: 10px;
+    border: 3px solid black;
+}
+
+p {
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px double black;
+}
