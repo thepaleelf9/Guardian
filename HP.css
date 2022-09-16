@@ -1,0 +1,37 @@
+body, h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+h1 {
+    text-align: center;
+    font-family: "Sarpanch", sans-serif;
+    font-size: 8rem;
+    padding: 30px;
+    color: #1D9099
+  ;
+    text-shadow: 5px 5px #E79C10
+  , 10px 10px #D53A33
+  ;
+    text-decoration: underline dashed;
+    letter-spacing: 10px;
+  ;
+  }
+  .topnav {
+    background-color: #D53A33;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: rgb(140, 13, 13)
+
+  }
